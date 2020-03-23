@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo-blanco.jpg)  no-repeat center top;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.container{
+    width: 320px;
+    height: 420px;
+    background: rgb(124, 172, 190);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+
+
+.container h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #fff;
+}
+
+.container h3{
+    margin-top: -15px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.container label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    
+}
+.container p{
+    color: #fff;
+    text-align: right;
+    size: 12px;
+    margin: 0px;
+    
+}
+
+.container input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: larger;
+
+}
+
+.container select {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: larger;
+}
+
+.container button{
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(46, 26, 121);
+}
+.container a:hover{
+   color: darkred;
+}
+
+.container ul{
+    position: absolute;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -100px;
+}
+
+.container table {
+    color: #fff;
+}
+
+.lis #lista {
+    color: #fff;
+    border: #000;
+}
+
+h1 {
+    text-align: center;
+    size: 12px;
+    color: #000;
+}
+
+.floating {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index:100;
+}
+
+.big-padding h1{
+    color: rgb(45, 115, 141);
+    size: 32px;
+    text-align: center;
+    margin-top: 10px;
+}
